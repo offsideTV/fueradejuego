@@ -46,7 +46,7 @@
     </button>
     <div class="panel">
         <div class="sub-events">
-            <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 1</a>
+            <a href="reproductor.html?ch=disney1-a" class="video-link">Disney+ opción 1</a>
             <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 2</a>
         </div>
     </div>
@@ -58,7 +58,7 @@
     </button>
     <div class="panel">
         <div class="sub-events">
-            <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 1</a>
+            <a href="reproductor.html?ch=disney6-a" class="video-link">Disney+ opción 1</a>
             <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 2</a>
         </div>
     </div>
@@ -70,7 +70,7 @@
     </button>
     <div class="panel">
         <div class="sub-events">
-            <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 1</a>
+            <a href="reproductor.html?ch=disney5-a" class="video-link">Disney+ opción 1</a>
             <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 2</a>
         </div>
     </div>
@@ -84,7 +84,7 @@
     </button>
     <div class="panel">
         <div class="sub-events">
-            <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 1</a>
+            <a href="reproductor.html?ch=disney4-a" class="video-link">Disney+ opción 1</a>
             <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 2</a>
         </div>
     </div>
@@ -96,7 +96,7 @@
     </button>
     <div class="panel">
         <div class="sub-events">
-            <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 1</a>
+            <a href="reproductor.html?ch=disney3-a" class="video-link">Disney+ opción 1</a>
             <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 2</a>
         </div>
     </div>
@@ -122,7 +122,7 @@
     </button>
     <div class="panel">
         <div class="sub-events"> 
-            <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 1</a>
+            <a href="reproductor.html?ch=disney9-a" class="video-link">Disney+ opción 1</a>
             <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 2</a>
         </div>
     </div>
@@ -170,7 +170,7 @@
     </button>
     <div class="panel">
         <div class="sub-events">
-            <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 1</a>
+            <a href="reproductor.html?ch=disney11-a" class="video-link">Disney+ opción 1</a>
             <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 2</a>
         </div>
     </div>
@@ -184,7 +184,7 @@
     </button>
     <div class="panel">
         <div class="sub-events">
-            <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 1</a>
+            <a href="reproductor.html?ch=disney10-a" class="video-link">Disney+ opción 1</a>
             <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 2</a>
         </div>
     </div>
@@ -247,7 +247,7 @@
     </button>
     <div class="panel">
         <div class="sub-events">
-            <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 1</a>
+            <a href="reproductor.html?ch=disney14-a" class="video-link">Disney+ opción 1</a>
             <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 2</a>
         </div>
     </div>
@@ -320,7 +320,7 @@
     </button>
     <div class="panel">
         <div class="sub-events">
-            <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 1</a>
+            <a href="reproductor.html?ch=disney18-a" class="video-link">Disney+ opción 1</a>
             <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 2</a>
         </div>
     </div>
@@ -333,7 +333,7 @@
     </button>
     <div class="panel">
         <div class="sub-events">
-            <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 1</a>
+            <a href="reproductor.html?ch=disney1-a" class="video-link">Disney+ opción 1</a>
             <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 2</a>
         </div>
     </div>
@@ -378,7 +378,7 @@
     </button>
     <div class="panel">
         <div class="sub-events">
-            <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 1</a>
+            <a href="reproductor.html?ch=disney3-a" class="video-link">Disney+ opción 1</a>
             <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 2</a>
         </div>
     </div>
