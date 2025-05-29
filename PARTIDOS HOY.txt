@@ -1,0 +1,327 @@
+ <div class="container">
+        <!-- Sección de la agenda con estilo destacado -->
+        <section class="agenda">
+            <div style="position: center; margin-bottom: 10px;">
+                <h2 style="margin: 0; font-family: 'Arial', sans-serif; color: #444; font-size: 1.7em; font-weight: 800; letter-spacing: -0.5px;">
+                    <span style="display: block; font-size: 0.7em; font-weight: 400; color: #ca0a0a; margin-bottom: 3px;">JUEVES, 29 DE MAYO</span>
+                    Agenda deportiva del dia</span>
+                </h2>
+                
+            </div>
+            
+          <!-- Campo de búsqueda -->
+          <input type="text" id="searchInput2" placeholder="🔍 Buscar evento..." oninput="filterEvents()">
+            
+         <!-- Mensaje de "No encontrado" -->
+        <div id="noResultsMessage" style="display: none; color: red; margin-top: 10px; font-size: 0.9em; text-align: center;">
+                    ⚠️ Evento no encontrado. Solicitalo dando click <a href="fallos.html" style="color: blue; text-decoration: underline;">aquí</a>.
+        </div>
+  
+  <script>
+    function mostrarMensajeNoEncontrado() {
+      document.getElementById("noResultsMessage").style.display = "block";
+    }
+  
+    // Llamar a esta función cuando no se encuentre el evento
+    // mostrarMensajeNoEncontrado();
+  </script>
+<div class="event">
+    <button class="accordion">
+        <div class="match-header">
+            <h3 class="competition-name">Ligue 1</h3>
+            <div class="match-teams">
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20210127191206-stade-de-reims.webp" alt="" class="team-logo">
+                    <span>Reims</span>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20211013183837-fc-metz.webp" alt="" class="team-logo">
+                    <span>Metz</span>
+                </div>
+            </div>
+            <div class="match-time">15:30</div>
+        </div>
+    </button>
+    <div class="panel">
+        <div class="sub-events">
+          <a href="reproductor.html?ch=disney" class="video-link">Disney+ opción 1 </a>
+        </div>
+    </div>
+</div>
+<div class="event">
+    <button class="accordion">
+        <div class="match-header">
+            <h3 class="competition-name">Copa Libertadores</h3>
+            <div class="match-teams">
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20130410092630_penarol.webp" alt="" class="team-logo">
+                    <span>Peñarol</span>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20121219051943_v%C3%A9lez-sarsfield.webp" alt="" class="team-logo">
+                    <span>Vélez</span>
+                </div>
+            </div>
+            <div class="match-time">19:00</div>
+        </div>
+    </button>
+    <div class="panel">
+        <div class="sub-events">
+            <a href="reproductor.html?ch=fox1ar-a" class="video-link">Fox Sports opción 1</a>
+           <a href="reproductor.html?ch=fox1ar-b" class="video-link">Fox Sports opción 2</a>
+           <a href="reproductor.html?ch=fox1ar-c" class="video-link">Fox Sports opción 3</a>
+           <a href="reproductor.html?ch=espn-b" class="video-link">Disney+ opción 4 </a>
+        </div>
+    </div>
+</div>
+
+<div class="event">
+    <button class="accordion">
+        <div class="match-header">
+            <h3 class="competition-name">Copa Libertadores</h3>
+            <div class="match-teams">
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20130412093209_olimpia.webp" alt="" class="team-logo">
+                    <span>Olimpia</span>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20231112214251-san-antonio-bulo-bulo.webp" alt="" class="team-logo">
+                    <span>San Antonio</span>
+                </div>
+            </div>
+            <div class="match-time">19:00</div>
+        </div>
+    </button>
+    <div class="panel">
+        <div class="sub-events">
+           <a href="reproductor.html?ch=fox2ar-a" class="video-link">Fox Sports 2 opción 1</a>
+           <a href="reproductor.html?ch=fox2ar-b" class="video-link">Fox Sports 2  opción 2</a>
+           <a href="reproductor.html?ch=fox2ar-c" class="video-link">Fox Sports 2 opción 3</a>
+           <a href="reproductor.html?ch=espn7-ext" class="video-link">Disney+ opción 4 </a>
+        </div>
+    </div>
+</div>
+
+<div class="event">
+    <button class="accordion">
+        <div class="match-header">
+            <h3 class="competition-name">Copa Sudamericana</h3>
+            <div class="match-teams">
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20121219051410_godoy-cruz.webp" alt="" class="team-logo">
+                    <span>Godoy Cruz</span>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20171209110204-atletico-grau.webp" alt="" class="team-logo">
+                    <span>Atlético Grau</span>
+                </div>
+            </div>
+            <div class="match-time">19:00</div>
+        </div>
+    </button>
+    <div class="panel">
+        <div class="sub-events">
+            <a href="reproductor.html?ch=espn-ext" class="video-link">ESPN opción 1 (Extensión)</a>
+            <a href="reproductor.html?ch=espn-a" class="video-link">ESPN opción 2</a>
+            <a href="reproductor.html?ch=dsports-a" class="video-link">Dsports opción 1</a>
+            <a href="reproductor.html?ch=dsports-b" class="video-link">Dsports opción 2</a>
+        </div>
+    </div>
+</div>
+
+<div class="event">
+    <button class="accordion">
+        <div class="match-header">
+            <h3 class="competition-name">Copa Sudamericana</h3>
+            <div class="match-teams">
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20121222103034_gremio.webp" alt="" class="team-logo">
+                    <span>Gremio</span>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20140918105717-sportivo-luquenyo.webp" alt="" class="team-logo">
+                    <span>Sportivo Luqueño</span>
+                </div>
+            </div>
+            <div class="match-time">19:00</div>
+        </div>
+    </button>
+    <div class="panel">
+        <div class="sub-events">
+            <a href="reproductor.html?ch=espn2-b" class="video-link">ESPN 2 opción 1</a>
+            <a href="reproductor.html?ch=espn2-c" class="video-link">ESPN 2 opción 2</a>
+
+        </div>
+    </div>
+</div>
+
+<div class="event">
+    <button class="accordion">
+        <div class="match-header">
+            <h3 class="competition-name">Copa Libertadores</h3>
+            <div class="match-teams">
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20121219051639_racing-de-avellaneda.webp" alt="" class="team-logo">
+                    <span>Racing</span>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20160516115803-fortaleza-sc.webp" alt="" class="team-logo">
+                    <span>Fortaleza</span>
+                </div>
+            </div>
+            <div class="match-time">21:30</div>
+        </div>
+    </button>
+    <div class="panel">
+        <div class="sub-events">
+            <a href="reproductor.html?ch=fox1ar-a" class="video-link">Fox Sports (Sin delay)</a>
+           <a href="reproductor.html?ch=fox1ar-b" class="video-link">Fox Sports (Delay de segundos)</a>
+           <a href="reproductor.html?ch=fox1ar-c" class="video-link">Fox Sports (Delay de segundos)</a>
+           <a href="reproductor.html?ch=espn7-ext" class="video-link">Disney+ opción 4 (Extensión - Sin delay)</a>
+        </div>
+    </div>
+</div>
+
+<div class="event">
+    <button class="accordion">
+        <div class="match-header">
+            <h3 class="competition-name">Copa Libertadores</h3>
+            <div class="match-teams">
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20130208052500_colo-colo.webp" alt="" class="team-logo">
+                    <span>Colo Colo</span>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20140228090756-bucaramanga.webp" alt="" class="team-logo">
+                    <span>Bucaramanga</span>
+                </div>
+            </div>
+            <div class="match-time">21:30</div>
+        </div>
+    </button>
+    <div class="panel">
+        <div class="sub-events">
+           <a href="reproductor.html?ch=fox2ar-a" class="video-link">Fox Sports 3 opción 1</a>
+           <a href="reproductor.html?ch=fox2ar-b" class="video-link">Fox Sports 3  opción 2</a>
+           <a href="reproductor.html?ch=fox2ar-c" class="video-link">Fox Sports 3 opción 3</a>
+           <a href="reproductor.html?ch=espn-b" class="video-link">Disney+ opción 4</a>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="event">
+    <button class="accordion">
+        <div class="match-header">
+            <h3 class="competition-name">Copa Sudamericana</h3>
+            <div class="match-teams">
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20180202125146-atletico-mineiro.webp" alt="" class="team-logo">
+                    <span>Atlético Mineiro</span>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20140912012204-cienciano.webp" alt="" class="team-logo">
+                    <span>Cienciano</span>
+                </div>
+            </div>
+            <div class="match-time">21:30</div>
+        </div>
+    </button>
+    <div class="panel">
+        <div class="sub-events">
+           <a href="reproductor.html?ch=espn-ext" class="video-link">ESPN opción 1 (Extensión)</a>
+           <a href="reproductor.html?ch=espn-b" class="video-link">ESPN opción 2</a>
+           <a href="reproductor.html?ch=espn-c" class="video-link">ESPN opción 3</a>
+        </div>
+    </div>
+</div>
+
+<div class="event">
+    <button class="accordion">
+        <div class="match-header">
+            <h3 class="competition-name">Copa Sudamericana</h3>
+            <div class="match-teams">
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20180122105234-Fluminense.webp" alt="" class="team-logo">
+                    <span>Fluminense</span>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20130216121352_once-caldas.webp" alt="" class="team-logo">
+                    <span>Once Caldas</span>
+                </div>
+            </div>
+            <div class="match-time">21:30</div>
+        </div>
+    </button>
+    <div class="panel">
+        <div class="sub-events">
+            <a href="reproductor.html?ch=dsports-a" class="video-link">Dsports opción 1</a>
+            <a href="reproductor.html?ch=dsports-b" class="video-link">Dsports opción 2</a>
+            <a href="reproductor.html?ch=dsports-c" class="video-link">Dsports opción 3</a>
+        </div>
+    </div>
+</div>
+
+<div class="event">
+    <button class="accordion">
+        <div class="match-header">
+            <h3 class="competition-name">Copa Sudamericana</h3>
+            <div class="match-teams">
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20130404093950_union-espanola.webp" alt="" class="team-logo">
+                    <span>Unión Española</span>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20231016112006-club-gualberto-villarroel.webp" alt="" class="team-logo">
+                    <span>GV San José</span>
+                </div>
+            </div>
+            <div class="match-time">21:30</div>
+        </div>
+    </button>
+    <div class="panel">
+        <div class="sub-events">
+            <a href="reproductor.html?ch=espn2-ext" class="video-link">ESPN opción 1 (Extensión)</a>
+            <a href="reproductor.html?ch=espn2-a" class="video-link">ESPN opción 2</a>
+            <a href="reproductor.html?ch=espn5-b" class="video-link">ESPN 5 opción 3</a>
+            <a href="reproductor.html?ch=espn5-c" class="video-link">ESPN 5 opción 4</a>
+        </div>
+    </div>
+</div>
+
+<div class="event">
+    <button class="accordion">
+        <div class="match-header">
+            <h3 class="competition-name">Copa Sudamericana</h3>
+            <div class="match-teams">
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20130418104055_caracas-fc.webp" alt="" class="team-logo">
+                    <span>Caracas</span>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                    <img src="https://static.futbolenlatv.com/img/32/20130208052436_deportivo-iquique.webp" alt="" class="team-logo">
+                    <span>Deportes Iquique</span>
+                </div>
+            </div>
+            <div class="match-time">21:30</div>
+        </div>
+    </button>
+    <div class="panel">
+        <div class="sub-events">
+            <a href="reproductor.html?ch=espn3-ext" class="video-link">ESPN 3 opción 1 (Extensión)</a>
+            <a href="reproductor.html?ch=espn3-a" class="video-link">ESPN 3 opción 2</a>
+        </div>
+    </div>
+</div>
